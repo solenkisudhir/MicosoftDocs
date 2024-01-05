@@ -1,0 +1,1 @@
+Follow the steps in [View your user profile](/dynamics365/customer-engagement/basics/view-your-user-profile).

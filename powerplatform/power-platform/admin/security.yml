@@ -1,0 +1,147 @@
+### YamlMime:Landing
+
+title: Microsoft Power Platform security and governance documentation
+summary: Learn how to set up and maintain security and governance for Power Platform.
+# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
+
+metadata:
+  title: Microsoft Power Platform security and governance documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to set up and maintain security and governance for Power Platform. # Required; article description that is displayed in search results. < 160 chars.
+  ms.subservice: admin
+  ms.topic: landing-page  # Required
+  author: sericks007 #Required; your GitHub user alias, with correct capitalization.
+  ms.author: sericks #Required; microsoft alias of author; optional team alias.
+  ms.date: 09/28/2021 #Required; mm/dd/yyyy format.
+  hide_bc: false
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+  # Card 
+  - title: Get started with security and governance 
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Security in Microsoft Power Platform
+            url: ./security/overview.md
+          - text: Authenticating to Power Platform services
+            url: ./security/authenticate-services.md
+          - text: Securely access customer data
+            url: about-lockbox.md
+          - text: Connecting and authenticating to data sources
+            url: ./security/connect-data-sources.md 
+          - text: Security and governance considerations
+            url: governance-considerations.md
+          - text: Default environment routing
+            url: default-environment-routing.md
+
+  # Card
+  - title: Configure environment security
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Control environment creation
+            url: control-environment-creation.md
+          - text: Restrict cross-tenant access
+            url: cross-tenant-restrictions.md
+          - text: Content security policy
+            url: content-security-policy.md
+          - text: Administration mode
+            url: admin-mode.md
+       - linkListType: concept
+         links:
+          - text: Multiple online environments or tenants
+            url: multiple-online-environments-tenants.md
+  
+  # Card
+  - title: Configure user security
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Grant users access
+            url: grant-users-access.md              
+       - linkListType: how-to-guide
+         links:
+          - text: Control user access
+            url: control-user-access.md
+          - text: Assign security roles
+            url: assign-security-roles.md
+          - text: Add users to an environment
+            url: add-users-to-environment.md
+       - linkListType: learn
+         links:
+          - text: Get started with security roles in Dataverse
+            url: /training/modules/get-started-security-roles/
+  
+  # Card
+  - title: Data loss prevention policies
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: DLP policies
+            url: wp-data-loss-prevention.md
+          - text: Connector classification
+            url: dlp-connector-classification.md
+          - text: Create a DLP Policy
+            url: create-dlp-policy.md
+          - text: Manage DLP policies
+            url: prevent-data-loss.md
+       - linkListType: learn
+         links:
+          - text: Manage environmental changes
+            url: /training/modules/manage-environmental-changes/
+
+  # Card
+  - title: Configure teams and team templates
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Manage teams
+            url: manage-teams.md
+          - text: Manage group teams
+            url: manage-group-teams.md
+          - text: Team templates
+            url: about-team-templates.md
+          - text: Team templates for access rights
+            url: create-team-template-add-entity-form.md
+
+  # Card
+  - title: Configure field-level security
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is field-level security?
+            url: field-level-security.md
+      - linkListType: how-to-guide
+        links:
+          - text: Set permissions for a field
+            url: set-up-security-permissions-field.md
+          - text: Enable or disable field security
+            url: enable-disable-security-field.md
+          - text: Add teams or users to field security
+            url: add-teams-users-field-security-profile.md
+
+  # Card
+  - title: Encryption
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Enhance security by encrypting your data
+            url: data-encryption.md
+      - linkListType: how-to-guide
+        links:
+          - text: Manage encryption key
+            url: manage-encryption-key.md
+ 
+   # Card
+  - title: Analytics
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Dataverse analytics
+            url: analyze-telemetry.md
+          - text: Power Apps analytics
+            url: analytics-powerapps.md
+          - text: Reports
+            url: tenant-level-analytics.md

@@ -1,0 +1,1 @@
+Browse to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in using Microsoft 365 Global administrator credentials.
